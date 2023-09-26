@@ -1,0 +1,49 @@
+string studentname = "ahmed";
+int studentid = 1111;
+float CGPA = 1.0f;
+bool pass = false;
+
+string fathername = "allahditta";
+int fatherid = 1234;
+float fatherheight = 5.4f;
+bool retired = true;
+
+string mothername = "sakina";
+int motherid = 1234;
+float motherheight = 4.5f;
+bool alive = true;
+
+string brothername = "salman";
+int brotherid = 1234;
+float brotherheight = 5.2f;
+bool dead = false;
+
+string sistername = "parveen";
+int sisterid = 1234;
+float sisterheight = 4.3f;
+bool study = true;
+
+string wifename = "nasreen";
+int wifenameid = 1234;
+float wifenameheight = 4.6f;
+bool job = false;
+
+string sonname = "bilal";
+int sonid = 1234;
+float sonheight = 3.5f;
+bool likescricket = true;
+
+string doughtername = "noor";
+int doughterid = 1234;
+float doughterheight = 2.9f;
+bool likesfootball = false;
+
+string cousinname = "saleem";
+int cousinid = 3214;
+float cousinheight = 5.6f;
+bool inarmy = true;
+
+string friendname = "ali";
+int friendid = 6541;
+float friendheight = 5.0f;
+bool passed = false;
