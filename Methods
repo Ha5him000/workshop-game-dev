@@ -1,1 +1,75 @@
+using System;
+
+public class Class1
+{
+	int a = 2,int b = 4,int c = 7;
+	int result;
+    string name = "Ahmed";
+    string name2 = "Ali";
+	
+	
+	public Class1()
+	{
+		public void main() 
+		{
+			console.writeline(a , b , c , d);
+		}
+
+		public void Add()
+		{
+			result = a + b + c;
+			console.writeline(result);
+		}
+
+        public void Sub()
+        {
+            result = a - b - c;
+            console.writeline(result);
+        }
+
+        public void Multiply()
+        {
+            result = a * b * c;
+            console.writeline(result);
+        }
+
+        public void Divide()
+        {
+            result = a / b / c;
+            console.writeline(result);
+        }
+
+        public void Printnames()
+        {
+            console.writeline(name);
+        }
+
+        public void printname2()
+        {
+            console.writeline(name + name2);
+        }
+
+        public void numnames()
+        {
+            result = a + name + c;
+            console.writeline(result);
+        }
+
+        public void namessub()
+        {
+            result = name + name2;
+            console.writeline(result);
+        }
+
+        private void allsum()
+        {
+            result = a + b + c + name + name2;
+            console.writeline(result);
+        }
+
+
+
+
+    }
+}
 
