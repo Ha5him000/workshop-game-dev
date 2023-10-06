@@ -1,0 +1,41 @@
+using System;
+
+class Calculator
+{
+int a;
+int b;
+int calculation;
+int result;
+
+public void add ()
+{
+    result = a + b;
+    console.writeline (result);
+}
+
+public void sub ()
+{
+    result = a - b;
+    console.writeline (result);
+}
+
+public void Multiply ()
+{
+    result = a * b;
+    console.writeline (result);
+}
+
+public void Divide ()
+{
+    result = a / b;
+    console.writeline (result);
+}
+
+public void main ()
+{
+    add(a=4, b=5);
+    sub(a=6, b=7);
+    Multiply(a=3, b=4);
+    Divide(a=8, b=6);
+}
+}
